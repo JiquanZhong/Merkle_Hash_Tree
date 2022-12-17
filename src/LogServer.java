@@ -7,9 +7,9 @@ import java.io.FileNotFoundException;
 
 public class LogServer {
   public static void main(String[] args) {
-    LogServer l = new LogServer("data/8.txt");
+    LogServer l = new LogServer("data/Statistics_Template.log");
     l.tree.display();
-    System.out.println("Proof for 6 (= index 5):");
+    System.out.println("Proof for 6 (= index 50):");
     for (Hash hash : l.genProof(5)) {
       System.out.println(hash);
     }
@@ -166,7 +166,6 @@ public class LogServer {
           listHash = makeProof(index, current.left, listHash);
           return listHash;
         } else {
-          System.out.println("You forgot to put some text here"); //TODO
           return null;
         }
     }

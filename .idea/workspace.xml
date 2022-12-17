@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7326d45-e898-41f5-9e53-a41f122d82c7" name="默认变更列表" comment="" />
+    <list default="true" id="b7326d45-e898-41f5-9e53-a41f122d82c7" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMerkleTreeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMerkleTreeClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
-  <component name="RunManager" selected="应用程序.TestMerkleTreeClass (2)">
+  <component name="RunManager" selected="应用程序.LogServer">
     <configuration name="Auditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Auditor" />
       <module name="merkle-hash-trees-master" />
@@ -53,6 +57,13 @@
     </configuration>
     <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hash" />
+      <module name="merkle-hash-trees-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogServer" />
       <module name="merkle-hash-trees-master" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,19 +79,6 @@
     <configuration name="MerkleTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jiquan.fr.MerkleTree" />
       <module name="merkle-hash-trees-master" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMerkleTreeClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TestMerkleTreeClass" />
-      <module name="merkle-hash-trees-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.LogServer" />
         <item itemvalue="应用程序.TestMerkleTreeClass (2)" />
         <item itemvalue="应用程序.Hash" />
         <item itemvalue="应用程序.MerkleTree (1)" />
         <item itemvalue="应用程序.Auditor" />
-        <item itemvalue="应用程序.TestMerkleTreeClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671204942156</updated>
       <workItem from="1671204943661" duration="140000" />
-      <workItem from="1671227911819" duration="1444000" />
+      <workItem from="1671227911819" duration="5030000" />
     </task>
     <servers />
   </component>
